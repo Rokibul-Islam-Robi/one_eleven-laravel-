@@ -1,0 +1,386 @@
+[
+{
+"json_id": 1,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-20 06:02:40"
+},
+{
+"json_id": 2,
+"stock": 53,
+"requires_prescription": 0,
+"updated_at": "2026-10-20 06:00:31"
+},
+{
+"json_id": 3,
+"stock": 53,
+"requires_prescription": 0,
+"updated_at": "2026-10-18 11:28:14"
+},
+{
+"json_id": 4,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-20 07:47:12"
+},
+{
+"json_id": 5,
+"stock": 51,
+"requires_prescription": 0,
+"updated_at": "2026-10-20 06:02:40"
+},
+{
+"json_id": 6,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 7,
+"stock": 52,
+"requires_prescription": 0,
+"updated_at": "2026-10-18 06:06:02"
+},
+{
+"json_id": 8,
+"stock": 51,
+"requires_prescription": 0,
+"updated_at": "2026-10-20 04:19:09"
+},
+{
+"json_id": 9,
+"stock": 56,
+"requires_prescription": 0,
+"updated_at": "2026-10-18 06:06:43"
+},
+{
+"json_id": 10,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 11,
+"stock": 51,
+"requires_prescription": 0,
+"updated_at": "2026-10-18 06:07:07"
+},
+{
+"json_id": 12,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 13,
+"stock": 52,
+"requires_prescription": 0,
+"updated_at": "2026-10-20 06:03:14"
+},
+{
+"json_id": 14,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 15,
+"stock": 51,
+"requires_prescription": 0,
+"updated_at": "2026-10-18 06:08:21"
+},
+{
+"json_id": 16,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 17,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 18,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 19,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 20,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 21,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 22,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 23,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 24,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 25,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 26,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 27,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 28,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 29,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 30,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 31,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 32,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 33,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 34,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 35,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 36,
+"stock": 53,
+"requires_prescription": 0,
+"updated_at": "2026-10-20 04:59:55"
+},
+{
+"json_id": 37,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 38,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 39,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 40,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 41,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 42,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 43,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 44,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 45,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 46,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 47,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 48,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 49,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 50,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 51,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 52,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 53,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 54,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 55,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 56,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 57,
+"stock": 51,
+"requires_prescription": 0,
+"updated_at": "2026-10-18 11:17:39"
+},
+{
+"json_id": 58,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 59,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 60,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 61,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 62,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 63,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+},
+{
+"json_id": 64,
+"stock": 50,
+"requires_prescription": 0,
+"updated_at": "2026-10-17 10:59:01"
+}
+]

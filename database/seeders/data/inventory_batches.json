@@ -1,0 +1,41 @@
+[
+{
+"id": 1,
+"product_id": 1001,
+"batch_number": "B-2401-A",
+"qty_received": 120,
+"qty_remaining": 40,
+"cost_price": 4.1,
+"expiry_date": "2026-09-17",
+"supplier": "MedSource Ltd.",
+"received_at": "2025-09-12",
+"notes": "Expired lot — quarantine shelf.",
+"created_at": "2026-10-17 09:01:58"
+},
+{
+"id": 2,
+"product_id": 1002,
+"batch_number": "B-2402-B",
+"qty_received": 150,
+"qty_remaining": 90,
+"cost_price": 3.85,
+"expiry_date": "2026-11-06",
+"supplier": "PharmaLink",
+"received_at": "2025-12-21",
+"notes": "Expiring within 30 days — prioritise dispatch.",
+"created_at": "2026-10-17 09:01:58"
+},
+{
+"id": 3,
+"product_id": 1003,
+"batch_number": "B-2403-C",
+"qty_received": 200,
+"qty_remaining": 200,
+"cost_price": 4.9,
+"expiry_date": "2027-06-14",
+"supplier": "MedSource Ltd.",
+"received_at": "2026-06-19",
+"notes": "Fresh stock.",
+"created_at": "2026-10-17 09:01:58"
+}
+]

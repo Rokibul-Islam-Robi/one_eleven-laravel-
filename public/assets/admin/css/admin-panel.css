@@ -1,0 +1,105 @@
+/* ============================================================
+   Admin panel extensions — layered on assets/css/admin.css.
+   Adds toolbar/filter, profile, expiry, copy-code and misc parts.
+   ============================================================ */
+
+.adm-nav a svg,.adm-side-foot a svg{width:18px;height:18px;flex-shrink:0}
+.adm-nav-label{user-select:none}
+.adm-content-wide{max-width:1600px}
+.adm-foot{padding:14px 24px 20px;color:var(--a-faint);font-size:11.5px;text-align:center}
+
+/* alerts */
+.adm-alert{border-radius:var(--a-radius);font-size:13px;box-shadow:var(--a-shadow)}
+
+/* toolbar search + filters */
+.adm-search-box{position:relative;display:flex;align-items:center;gap:8px;min-width:220px;flex:1;max-width:420px}
+.adm-search-box svg{width:16px;height:16px;color:var(--a-faint);flex-shrink:0}
+.adm-search-box .ainput{padding-left:4px}
+.adm-filter-label{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--a-muted);white-space:nowrap}
+.adm-filter-select{height:32px;width:auto;min-width:130px;padding:0 8px;font-size:12.5px;font-weight:600}
+
+/* empty state icon */
+.adm-empty .e-ic svg{width:22px;height:22px;color:var(--a-faint)}
+
+/* table helpers */
+.adm-table .cell-main{font-weight:700;color:var(--a-ink)}
+.adm-table .cell-sub{font-size:11.5px;color:var(--a-muted)}
+.adm-table .actions-cell{white-space:nowrap;text-align:right}
+.adm-table .actions-cell .abtn{margin:0 0 0 4px}
+
+/* code chip (reference codes / coupons / tracking) */
+.code-chip{
+  display:inline-flex;align-items:center;gap:6px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:12px;font-weight:700;background:var(--a-surface2);border:1px dashed var(--a-border);
+  border-radius:7px;padding:3px 8px;color:var(--a-ink);letter-spacing:.03em;
+}
+.code-chip button{background:none;border:0;color:var(--a-muted);padding:0;display:flex}
+.code-chip button:hover{color:var(--a-brand)}
+.code-chip svg{width:13px;height:13px}
+
+/* doctor / customer profile header */
+.prof-head{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+.prof-avatar{
+  width:64px;height:64px;border-radius:16px;background:var(--a-brand-l);color:var(--a-brand);
+  display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:800;flex-shrink:0;
+}
+.prof-head h2{font-size:19px;font-weight:800}
+.prof-head .meta{color:var(--a-muted);font-size:13px;margin-top:2px}
+.prof-stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.prof-stats .ps{background:var(--a-surface2);border:1px solid var(--a-border);border-radius:10px;padding:8px 14px;min-width:110px}
+.prof-stats .ps b{display:block;font-size:16px}
+.prof-stats .ps small{color:var(--a-muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+
+/* expiry colouring */
+.exp-expired{color:var(--a-danger);font-weight:700}
+.exp-soon{color:var(--a-warn);font-weight:700}
+.exp-ok{color:var(--a-brand)}
+
+/* stock bar */
+.stock-bar{height:6px;border-radius:99px;background:var(--a-surface2);overflow:hidden;margin-top:5px;min-width:80px}
+.stock-bar i{display:block;height:100%;border-radius:99px;background:var(--a-brand)}
+.stock-bar.low i{background:var(--a-danger)}
+.stock-bar.mid i{background:var(--a-warn)}
+
+/* detail grid */
+.dl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 20px}
+.dl-grid dt{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--a-faint);margin-bottom:2px}
+.dl-grid dd{margin:0;font-size:13.5px;font-weight:600}
+
+/* tabs as query links (used with .adm-tabs a instead of button) */
+.adm-tabs a{padding:10px 14px;font-size:13px;font-weight:700;color:var(--a-muted);text-decoration:none;border-bottom:2.5px solid transparent;margin-bottom:-1px;white-space:nowrap;transition:.12s}
+.adm-tabs a:hover{color:var(--a-ink)}
+.adm-tabs a.on{color:var(--a-brand);border-bottom-color:var(--a-brand)}
+.adm-tabs .cnt{margin-left:6px;background:var(--a-surface2);border:1px solid var(--a-border);font-size:11px;padding:0 6px;border-radius:99px}
+
+/* form actions row */
+.form-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px;padding-top:16px;border-top:1px solid var(--a-border)}
+
+/* content preview */
+.content-preview{border:1px dashed var(--a-border);border-radius:12px;padding:16px;background:var(--a-surface2)}
+.content-preview h4{font-size:15px;font-weight:800}
+.content-preview p{font-size:12.5px;color:var(--a-muted);margin-top:4px}
+
+/* invoice print slip */
+.invoice-slip{background:#fff;color:#111;padding:28px;border-radius:12px;max-width:800px}
+.invoice-slip table{width:100%;border-collapse:collapse}
+.invoice-slip th,.invoice-slip td{border-bottom:1px solid #ddd;padding:8px 10px;font-size:13px;text-align:left}
+
+/* stat list rows */
+.mini-list{list-style:none;margin:0;padding:0}
+.mini-list li{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--a-border);font-size:13px}
+.mini-list li:last-child{border-bottom:0}
+.mini-list .grow{flex:1;min-width:0}
+.mini-list .t{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini-list .s{font-size:11.5px;color:var(--a-muted)}
+
+/* responsive */
+@media(max-width:900px){
+  .adm-side-foot span{display:none}
+  .prof-head{gap:12px}
+  .adm-content-wide{padding:16px}
+}
+@media(max-width:560px){
+  .dl-grid{grid-template-columns:1fr}
+  .adm-page-head h1{font-size:19px}
+}

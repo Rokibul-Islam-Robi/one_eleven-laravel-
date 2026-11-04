@@ -1,0 +1,74 @@
+[
+{
+"skey": "catalog_source",
+"svalue": "db",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "catalog_version",
+"svalue": "6b846a53f8d034a39e40ba306b37bc16",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "mp_auto_approve_products",
+"svalue": "0",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "mp_default_commission",
+"svalue": "10",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "mp_discount_policy",
+"svalue": "platform",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "mp_hold_days",
+"svalue": "0",
+"is_secret": 0,
+"updated_at": "2026-10-21 08:05:38"
+},
+{
+"skey": "mp_min_payout",
+"svalue": "100",
+"is_secret": 0,
+"updated_at": "2026-10-21 08:05:38"
+},
+{
+"skey": "mp_registration_open",
+"svalue": "1",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "pay_enabled_bkash",
+"svalue": "1",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "pay_enabled_cod",
+"svalue": "1",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "pay_enabled_nagad",
+"svalue": "1",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+},
+{
+"skey": "pay_enabled_sslcommerz",
+"svalue": "1",
+"is_secret": 0,
+"updated_at": "2026-10-21 07:57:46"
+}
+]

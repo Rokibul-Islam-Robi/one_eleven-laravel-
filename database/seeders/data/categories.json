@@ -1,0 +1,440 @@
+[
+{
+"id": 1,
+"name": "Supplements",
+"slug": "supplements",
+"icon": "i-cat-supplements"
+},
+{
+"id": 2,
+"name": "Sports",
+"slug": "sports",
+"icon": "i-cat-sports"
+},
+{
+"id": 3,
+"name": "Bath & Personal Care",
+"slug": "bath-personal-care",
+"icon": "i-cat-bath"
+},
+{
+"id": 4,
+"name": "Beauty",
+"slug": "beauty",
+"icon": "i-cat-beauty"
+},
+{
+"id": 5,
+"name": "Grocery",
+"slug": "grocery",
+"icon": "i-cat-grocery"
+},
+{
+"id": 6,
+"name": "Home",
+"slug": "home",
+"icon": "i-cat-home"
+},
+{
+"id": 7,
+"name": "Baby & Kids",
+"slug": "kids-babies",
+"icon": "i-cat-baby"
+},
+{
+"id": 8,
+"name": "Pets",
+"slug": "pets",
+"icon": "i-cat-pets"
+},
+{
+"id": 521,
+"name": "Vitamins & Minerals",
+"slug": "daily-vitamins",
+"icon": "✣"
+},
+{
+"id": 522,
+"name": "Immune Support",
+"slug": "immune-support",
+"icon": "✣"
+},
+{
+"id": 523,
+"name": "Herbs & Botanicals",
+"slug": "herbs-botanicals",
+"icon": "✣"
+},
+{
+"id": 524,
+"name": "Omega & Fish Oil",
+"slug": "omega-dha",
+"icon": "✣"
+},
+{
+"id": 525,
+"name": "Digestive Support",
+"slug": "digestive-support",
+"icon": "✣"
+},
+{
+"id": 526,
+"name": "Amino Acids",
+"slug": "amino-acids",
+"icon": "✣"
+},
+{
+"id": 527,
+"name": "Bone & Joint",
+"slug": "bone-joint",
+"icon": "✣"
+},
+{
+"id": 528,
+"name": "Sleep & Stress",
+"slug": "sleep-stress",
+"icon": "✣"
+},
+{
+"id": 529,
+"name": "Heart & Cardiovascular",
+"slug": "heart-health",
+"icon": "✣"
+},
+{
+"id": 530,
+"name": "Weight Management",
+"slug": "weight-management",
+"icon": "✣"
+},
+{
+"id": 531,
+"name": "Protein & Performance",
+"slug": "plant-protein",
+"icon": "✣"
+},
+{
+"id": 532,
+"name": "Kids Vitamins",
+"slug": "kids-nutrition",
+"icon": "✣"
+},
+{
+"id": 533,
+"name": "Skincare",
+"slug": "skincare",
+"icon": "✣"
+},
+{
+"id": 534,
+"name": "K-Beauty",
+"slug": "k-beauty",
+"icon": "✣"
+},
+{
+"id": 535,
+"name": "Sun Care",
+"slug": "sun-care",
+"icon": "✣"
+},
+{
+"id": 536,
+"name": "Makeup",
+"slug": "makeup",
+"icon": "✣"
+},
+{
+"id": 537,
+"name": "Serums & Oils",
+"slug": "serums-oils",
+"icon": "✣"
+},
+{
+"id": 538,
+"name": "Face Masks",
+"slug": "face-masks",
+"icon": "✣"
+},
+{
+"id": 539,
+"name": "Beauty Tools",
+"slug": "beauty-tools",
+"icon": "✣"
+},
+{
+"id": 540,
+"name": "Fragrance",
+"slug": "fragrance",
+"icon": "✣"
+},
+{
+"id": 541,
+"name": "Pre-Workout",
+"slug": "pre-workout",
+"icon": "✣"
+},
+{
+"id": 542,
+"name": "Creatine",
+"slug": "creatine",
+"icon": "✣"
+},
+{
+"id": 543,
+"name": "Recovery & Glutamine",
+"slug": "recovery-glutamine",
+"icon": "✣"
+},
+{
+"id": 544,
+"name": "BCAAs & EAAs",
+"slug": "bcaas",
+"icon": "✣"
+},
+{
+"id": 545,
+"name": "Endurance & Energy",
+"slug": "endurance",
+"icon": "✣"
+},
+{
+"id": 546,
+"name": "Seeds & Greens",
+"slug": "seeds-greens",
+"icon": "✣"
+},
+{
+"id": 547,
+"name": "Oats & Cereal",
+"slug": "oats",
+"icon": "✣"
+},
+{
+"id": 548,
+"name": "Cooking Oils",
+"slug": "cooking-oils",
+"icon": "✣"
+},
+{
+"id": 549,
+"name": "Snacks",
+"slug": "snacks",
+"icon": "✣"
+},
+{
+"id": 550,
+"name": "Beverages",
+"slug": "beverages",
+"icon": "✣"
+},
+{
+"id": 551,
+"name": "Superfoods",
+"slug": "superfoods",
+"icon": "✣"
+},
+{
+"id": 552,
+"name": "Pantry Staples",
+"slug": "pantry",
+"icon": "✣"
+},
+{
+"id": 553,
+"name": "Honey & Sweeteners",
+"slug": "sweeteners",
+"icon": "✣"
+},
+{
+"id": 554,
+"name": "Shampoo & Conditioner",
+"slug": "shampoo-conditioner",
+"icon": "✣"
+},
+{
+"id": 555,
+"name": "Body Wash",
+"slug": "body-wash",
+"icon": "✣"
+},
+{
+"id": 556,
+"name": "Oral Care",
+"slug": "toothpaste",
+"icon": "✣"
+},
+{
+"id": 557,
+"name": "Hair Treatments",
+"slug": "hair-treatments",
+"icon": "✣"
+},
+{
+"id": 558,
+"name": "Hand Wash",
+"slug": "hand-wash",
+"icon": "✣"
+},
+{
+"id": 559,
+"name": "Deodorants",
+"slug": "deodorants",
+"icon": "✣"
+},
+{
+"id": 560,
+"name": "Shaving Care",
+"slug": "shaving",
+"icon": "✣"
+},
+{
+"id": 561,
+"name": "Soap Bars",
+"slug": "soap-bars",
+"icon": "✣"
+},
+{
+"id": 562,
+"name": "All-Purpose Cleaners",
+"slug": "all-purpose",
+"icon": "✣"
+},
+{
+"id": 563,
+"name": "Laundry",
+"slug": "laundry",
+"icon": "✣"
+},
+{
+"id": 564,
+"name": "Dishwashing",
+"slug": "dishwashing",
+"icon": "✣"
+},
+{
+"id": 565,
+"name": "Bathroom Cleaners",
+"slug": "bathroom-cleaners",
+"icon": "✣"
+},
+{
+"id": 566,
+"name": "Air Care",
+"slug": "air-care",
+"icon": "✣"
+},
+{
+"id": 567,
+"name": "Essential Oils",
+"slug": "essential-oils",
+"icon": "✣"
+},
+{
+"id": 568,
+"name": "Diffusers",
+"slug": "diffusers",
+"icon": "✣"
+},
+{
+"id": 569,
+"name": "Kitchen Storage",
+"slug": "kitchen-storage",
+"icon": "✣"
+},
+{
+"id": 570,
+"name": "Water Bottles",
+"slug": "water-bottles",
+"icon": "✣"
+},
+{
+"id": 571,
+"name": "Dish Tools",
+"slug": "dish-tools",
+"icon": "✣"
+},
+{
+"id": 572,
+"name": "Baby Bath & Skin",
+"slug": "baby-bath",
+"icon": "✣"
+},
+{
+"id": 573,
+"name": "Feeding",
+"slug": "feeding",
+"icon": "✣"
+},
+{
+"id": 574,
+"name": "Diapers & Wipes",
+"slug": "diapers-wipes",
+"icon": "✣"
+},
+{
+"id": 575,
+"name": "Baby Care",
+"slug": "baby-care",
+"icon": "✣"
+},
+{
+"id": 576,
+"name": "Kids Snacks",
+"slug": "kids-snacks",
+"icon": "✣"
+},
+{
+"id": 577,
+"name": "Pet Vitamins",
+"slug": "pet-vitamins",
+"icon": "✣"
+},
+{
+"id": 578,
+"name": "Pet Probiotics",
+"slug": "pet-probiotics",
+"icon": "✣"
+},
+{
+"id": 579,
+"name": "Flea & Tick",
+"slug": "flea-tick",
+"icon": "✣"
+},
+{
+"id": 580,
+"name": "Grooming",
+"slug": "pet-grooming",
+"icon": "✣"
+},
+{
+"id": 581,
+"name": "Treats",
+"slug": "pet-treats",
+"icon": "✣"
+},
+{
+"id": 582,
+"name": "Joint Care",
+"slug": "pet-joint",
+"icon": "✣"
+},
+{
+"id": 583,
+"name": "Toners",
+"slug": "toners",
+"icon": "✣"
+},
+{
+"id": 584,
+"name": "Bath",
+"slug": "bath",
+"icon": "✣"
+},
+{
+"id": 585,
+"name": "Kids",
+"slug": "kids",
+"icon": "✣"
+}
+]

@@ -1,0 +1,27 @@
+[
+{
+"id": "001_base_tables",
+"title": "Baseline CMS tables (fresh installs only)",
+"applied_at": "2026-10-21 09:54:45"
+},
+{
+"id": "002a_settings_normalize",
+"title": "Settings table: legacy k/v columns become skey/svalue (+ is_secret, updated_at)",
+"applied_at": "2026-10-21 09:57:46"
+},
+{
+"id": "002_marketplace_core",
+"title": "Marketplace: sellers, commission, ledger, payouts, settings, payment transactions",
+"applied_at": "2026-10-21 09:54:47"
+},
+{
+"id": "003_catalog_sync",
+"title": "Website catalogue now reads from the CMS database (import JSON products once)",
+"applied_at": "2026-10-21 09:57:46"
+},
+{
+"id": "004_marketplace_hardening",
+"title": "Marketplace hardening: commission effective_to, payout proof_file, review_count backfill",
+"applied_at": "2026-10-21 09:57:46"
+}
+]

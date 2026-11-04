@@ -1,0 +1,34 @@
+/* Tailwind v4 — utilities only (Preflight disabled so the existing
+   hand-written styles.css keeps full control of base element styling). */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* desktop-only variants — the site switches to the mobile header at 900px */
+@custom-variant big (@media (min-width: 901px));
+
+/* class-based dark mode for the admin dashboard (.dark root) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+	--animate-mm-in: mm-in .18s cubic-bezier(.22,.61,.36,1);
+	--animate-fade-in: fade-in .2s cubic-bezier(.22,.61,.36,1);
+	--color-brand: #16813b;
+	--color-brand-d: #0f622c;
+	--color-brand-l: #eaf6ee;
+	--color-brand-xl: #f3faf5;
+	--color-ink: #1f2529;
+	--color-muted: #6d757c;
+	--color-faint: #98a0a6;
+	--color-line: #e7e9e7;
+	--color-sale: #e2590c;
+}
+
+@keyframes mm-in{
+	from{opacity:0;transform:translateY(-8px)}
+	to{opacity:1;transform:translateY(0)}
+}
+@keyframes fade-in{
+	from{opacity:0}
+	to{opacity:1}
+}

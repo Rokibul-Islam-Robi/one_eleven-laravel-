@@ -1,0 +1,1 @@
+The supplied React source primarily references product and promotional images by remote Pexels/Unsplash URLs in src/data.js. Those source URLs are preserved in the PHP product catalog. The source ZIP did not contain a local image library in dist/images, so this folder is available for any images the project owner later chooses to host locally.

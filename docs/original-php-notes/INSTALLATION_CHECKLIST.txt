@@ -1,0 +1,19 @@
+bHerb PHP project — submission checklist
+
+1. Extract this ZIP archive.
+2. Copy the bherb_php folder to C:\xampp\htdocs\bherb_php
+3. Open XAMPP Control Panel and start Apache.
+4. Open http://localhost/bherb_php/
+5. If clean routes do not work, ensure Apache mod_rewrite is enabled and AllowOverride All is set.
+6. Optional (persistent orders): create/import the MySQL schema (see README.md and database/),
+   then run "php database/migrate_payments.php" once to add the payment columns and the
+   pending payment state. Without MySQL the storefront still runs (catalog + session cart).
+7. Optional (online payments): set the SSLCommerz / bKash / Nagad environment variables
+   listed in includes/config.php. With no credentials the local demo gateway
+   (payment/demo.php) simulates every method, so checkout works out of the box.
+
+This is a Core PHP storefront conversion, not the original React application.
+Product images that use Pexels/Unsplash URLs need an internet connection.
+Checkout supports Cash on Delivery plus SSLCommerz, bKash and Nagad; gateways are
+simulated locally until real credentials are supplied. Production login is not configured.
+See README.md and CONVERSION_NOTES.md for scope and setup details.
