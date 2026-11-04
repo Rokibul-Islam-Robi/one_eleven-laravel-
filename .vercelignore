@@ -1,0 +1,7 @@
+﻿.vercel
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+/node_modules
+/vendor
