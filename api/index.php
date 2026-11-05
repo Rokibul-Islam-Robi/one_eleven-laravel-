@@ -1,9 +1,32 @@
 <?php
 
-// Forward errors to screen and logs for debugging
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
+$uri = urldecode(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH));
+
+// Serve static assets directly if requested
+$publicFile = __DIR__ . '/../public' . $uri;
+if ($uri !== '/' && file_exists($publicFile) && !is_dir($publicFile)) {
+    $extension = strtolower(pathinfo($publicFile, PATHINFO_EXTENSION));
+    $mimes = [
+        'css' => 'text/css; charset=UTF-8',
+        'js' => 'application/javascript; charset=UTF-8',
+        'svg' => 'image/svg+xml',
+        'png' => 'image/png',
+        'jpg' => 'image/jpeg',
+        'jpeg' => 'image/jpeg',
+        'gif' => 'image/gif',
+        'ico' => 'image/x-icon',
+        'webp' => 'image/webp',
+        'woff' => 'font/woff',
+        'woff2' => 'font/woff2',
+        'ttf' => 'font/ttf',
+    ];
+    if (isset($mimes[$extension])) {
+        header('Content-Type: ' . $mimes[$extension]);
+    }
+    header('Cache-Control: public, max-age=31536000');
+    readfile($publicFile);
+    exit;
+}
 
 // Ensure /tmp paths for serverless environment
 $dirs = [
