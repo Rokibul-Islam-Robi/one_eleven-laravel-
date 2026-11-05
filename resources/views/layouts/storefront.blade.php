@@ -8,10 +8,15 @@
     <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
     <base href="{{ rtrim(url('/'), '/') }}/">
 
-    {{-- Storefront stylesheets — cascade order: base → PHP-specific → homepage/nav rules --}}
-    <link rel="stylesheet" href="{{ asset('assets/css/styles.css?v=' . ($cssV ?? '1.0')) }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/site-php.css?v=' . ($cssV ?? '1.0')) }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/home.css?v=' . ($cssV ?? '1.0')) }}">
+    <style>
+        {!! file_get_contents(public_path('assets/css/styles.css')) !!}
+        {!! file_get_contents(public_path('assets/css/site-php.css')) !!}
+        {!! file_get_contents(public_path('assets/css/home.css')) !!}
+    </style>
+
+    <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/site-php.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/home.css') }}">
 </head>
 <body>
 @include('layouts.partials.header')
