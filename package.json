@@ -1,9 +1,9 @@
-{
+﻿{
     "$schema": "https://www.schemastore.org/package.json",
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
+        "build": "vite build && mkdir dist",
         "dev": "vite"
     },
     "devDependencies": {
